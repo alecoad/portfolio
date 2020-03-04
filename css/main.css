@@ -1,0 +1,199 @@
+/***** BASE STYLES *****/
+
+body {
+		font-family: 'Open Sans', sans-serif;
+		color: #313131;
+}
+
+/***** GRID *****/
+
+.full-width {
+		width: 1200px;
+		margin: 0 auto;
+}
+
+.half-width {
+		width: 600px;
+		float: left;
+}
+
+.third-width {
+		width: 400px;
+		float: left;
+}
+
+/***** HEADER *****/
+
+header {
+		background: #bacbe8;
+		height: 800px;
+}
+
+header h1 {
+		font-family: "Libre Baskerville", serif;
+		font-size: 32px;
+		font-weight: bold;
+		padding: 25px;
+}
+
+nav {
+		float: right;
+		padding: 35px 0 0 0;
+}
+
+nav ul li {
+		display: inline-block;
+}
+
+nav ul li a {
+		color: #313131;
+		font-size: 24px;
+		font-weight: bold;
+		padding-left: 25px;
+		text-decoration: none;
+		text-transform: uppercase;
+}
+
+header h2 {
+		clear: both;
+		font-family: "Libre Baskerville", serif;
+		font-size: 64px;
+		font-weight: bold;
+		padding: 120px 0 12px 25px;
+		text-align: left;
+}
+
+header h2 span {
+		color: #ff654a;
+}
+
+header h3 {
+		font-family: "Open Sans", sans-serif;
+		font-size: 48px;
+		font-weight: normal;
+		padding: 0 0 100px 25px;
+		text-align: left;
+		width: 1100px
+}
+
+/***** ABOUT *****/
+
+#about {
+		background: #ff654a;
+		color: #ffffff;
+		height: 1000px;
+		padding: 40px 0;
+		text-align: center;
+}
+
+#about .full-width {
+		width: 800px;
+}
+
+#about h2 {
+		font-family: "Libre Baskerville", serif;
+		font-size: 36px;
+		font-weight: bold;
+		padding: 50px 0 20px 0;
+}
+
+#about img {
+		border: 5px solid #ffffff;
+		height: 400px;
+}
+
+#about p {
+		font-family: "Open Sans";
+		font-size: 24px;
+		padding-top: 20px;
+}
+
+#about span {
+		font-size: 36px;
+		font-weight: bold;
+		font-variant: small-caps;
+}
+
+/***** PORTFOLIO *****/
+
+#portfolio {
+		background: #93bc9f;
+		height: 650px;
+		padding: 100px 0;
+		text-align: center;
+}
+
+
+#portfolio h2 {
+		font-family: "Libre Baskerville", serif;
+		font-size: 36px;
+		font-weight: bold;
+		padding-bottom: 100px;
+}
+
+#portfolio img {
+		border: 5px solid #bacbe8;
+		width: 320px;
+}
+
+#portfolio h3 {
+		font-size: 24px;
+		font-weight: bold;
+}
+
+#portfolio p {
+		font-size: 24px;
+		padding: 0 40px;
+}
+
+/***** CONTACT *****/
+
+#contact {
+		background: #857f74;
+		color: #ffffff;
+		height: 400px;
+		padding: 100px 0;
+		text-align: center;
+}
+
+#contact h2 {
+		font-family: "Libre Baskervill", serif;
+		font-size: 36px;
+		font-weight: bold;
+}
+
+#contact h3 {
+		font-size: 24px;
+		font-weight: bold;
+		padding-bottom: 40px;
+}
+
+#contact p {
+		font-size: 24px;
+}
+
+#contact a {
+		color: #ffffff;
+		font-size: 24px;
+		text-decoration: none;
+}
+
+#contact ul li {
+		display: inline-block;
+		padding-right: 40px;
+}
+
+#contact img {
+		width: 40px;
+}
+
+/***** FOOTER *****/
+
+footer {
+		background: #857f74;
+		color: #ffffff;
+		font-size: 18px;
+		height: 60px;
+		padding: 10px 0 20px 0;
+		text-align: center;
+}
