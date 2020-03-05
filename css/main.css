@@ -195,3 +195,15 @@ footer {
 		padding: 10px 0 20px 0;
 		text-align: center;
 }
+
+/***** PROJECT PAGE *****/
+
+#projects {
+		background: #ff8300;
+		border-radius: 25px;
+		color: #ffffff;
+		font-weight: bold;
+		margin: auto;
+		padding: 5px 20px;
+		width: 250px;
+}
